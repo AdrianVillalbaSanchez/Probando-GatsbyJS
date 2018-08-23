@@ -12,4 +12,19 @@ const IndexPage = () => (
   </div>
 )
 
+export const pageQuery = graphql`
+  query IndexQuery{
+    allMarkdownRemark(limit: 1000){
+      edges{
+        node{
+          frontmatter{
+            path
+            title
+          }
+        }
+      }
+    }
+  }
+`
+
 export default IndexPage

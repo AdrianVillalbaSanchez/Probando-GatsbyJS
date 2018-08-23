@@ -1,6 +1,6 @@
 ---
-path: '/first-post'
-title: 'First Blog Post'
+path: '/second-post'
+title: 'Second Blog Post'
 ---
 
-Hello! This is my first blog post.
+Hi! This is my first blog post.
